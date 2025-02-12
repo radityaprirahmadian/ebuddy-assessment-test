@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test"
+  },
+  "workspaces": ["apps/*", "packages/*"],
+  "devDependencies": {
+    "turbo": "^1.10.0"
+  },
+  "packageManager": "^npm@10.5.2"
+}
